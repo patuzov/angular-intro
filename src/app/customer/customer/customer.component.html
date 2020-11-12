@@ -1,0 +1,8 @@
+<span>{{childCustomer.firstName}} </span>
+<span>{{childCustomer.lastName}} </span>
+<img class="icon" [src]="childCustomer.resident | residentIcon" alt="">
+<div>
+    {{childCustomer.credit | currency:'EUR':'code'}}
+    <input type="checkbox" (change)="onCustomerSelected($event.target.checked)">
+</div>
+<a [routerLink]="['edit', childCustomer.firstName]" >Edit</a>

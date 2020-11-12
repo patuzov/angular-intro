@@ -1,0 +1,25 @@
+:host {
+    display: block;
+    margin: 1rem;
+    background-color: aliceblue;
+}
+
+img {
+    width: 100%;
+}
+
+img.icon {
+    width: 16px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.text_underline {
+    text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+<h2>Edit customer</h2>
+<div *ngIf="customer">
+    <div><span>First name: </span><input type="text" [(ngModel)]="customer.firstName"></div>
+    <div><span>Last name: </span><input type="text" [(ngModel)]="customer.lastName"></div>
+    <div><span>Resident: </span><input type="checkbox" [(ngModel)]="customer.resident"></div>
+    <div><span>Credit: </span><input type="text" [(ngModel)]="customer.credit"></div>
+</div>
+
+<button>Save</button>
+<button (click)="goBack()">Back to list</button>

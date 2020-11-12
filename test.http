@@ -1,0 +1,9 @@
+POST https://angularcustomer.azurewebsites.net/api/HttpTrigger1?code=HV8OCkxG7UCxCy9OFHzNw359j03xkgbwdmHFWoIAqJGnlc5SNuIpjA==
+
+{
+    "test": "ad"
+}
+
+###
+
+GET https://angularcustomer.azurewebsites.net/api/HttpTrigger1?code=HV8OCkxG7UCxCy9OFHzNw359j03xkgbwdmHFWoIAqJGnlc5SNuIpjA==
